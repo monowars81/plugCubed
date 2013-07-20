@@ -21,7 +21,7 @@ var a = function(a,b) {
         c = ' (' + (h/a.normal*100).toFixed(2) + '% saved)';
     }
 
-    e = "javascript:(function(){$.getScript('http://tatdk.github.io/plugCubed/compiled/plugCubed";
+    e = "javascript:(function(){$.getScript('http://plugCubed.com/compiled/plugCubed";
     f = a === false ? 'An error occured, please try again later' : null;
     g = ".js');}());";
     if (a !== false) {
@@ -37,7 +37,7 @@ var a = function(a,b) {
 $(document).ready(function() {
     setTimeout(function() {
         try {
-            $.getScript('http://tatdk.github.com/plugCubed/js/size.json',function(b) {
+            $.getScript('http://plugCubed.com/js/size.json',function(b) {
                 a(size,'stable');
             }).error(function() { a(false,'stable'); });
         } catch (e) { a({},'stable'); }
