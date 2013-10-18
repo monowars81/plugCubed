@@ -1,1 +1,0 @@
-If you want to help out translating plugCubed, please use http://getlocalization.com/plugCubed/
